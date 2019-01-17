@@ -1,0 +1,24 @@
+<nav class="navbar">
+    <div id="navbar-nav">
+        <div class="nav_pos_link">
+        <a href="/" id="link-home">LisSolution</a>
+            <div>
+                <p id="addres"> г. Минск, ул. Стариновска, д.7, пом.5</p>
+                <h2 id="phone">(29) 118 27 47 (пн-сб 10.00 - 19.00) </h2>
+            </div>
+
+{#        <button class="my-button" id="recall">Заказать звонок</button>#}
+
+            <a class="romb" id="romb1" href="{% url 'call' %}">
+            <div class="recal2">заказать звонок</div>
+            </a>
+            <a class="romb" id="romb2" href="{% url 'question' %}">
+            <div class="recal2"> задать вопрос </div>
+            </a>
+            <a class="romb" id="romb3" href="{% url 'company' %}">
+            <div class="recal2">о нашей компании</div>
+        </a>
+        </div>
+
+    </div>
+</nav>

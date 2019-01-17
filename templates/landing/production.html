@@ -1,0 +1,24 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    <a href="{% url 'condserv' cat %}" class="main-link" id="filter-brand">Показать сервис {{ cat }}</a>
+    <div class="prod-content row">
+    {% for elem in prod %}
+        <a href="{% url 'product' elem.id%}" class="list_product col-5 main-link">
+            <img src="{{ elem.image.url }}" class="menu_img">
+{#        <h3>{{ elem.name }}</h3>#}
+            <p class="short_discr_filter" style="word-break: break-all; white-space: pre-wrap; padding: 1vw; font-size: 1.3vw; width: 420px">{{ elem.short_description }}</p>
+            <h5>Цена: </h5>
+            <h2><br>{{ elem.price }} руб.</h2>
+        </a>
+
+    {% endfor %}
+
+{#    <img src="{% static 'img/cond1.jpg' %}" />#}
+{#    <img src="{% static 'img/cond2.jpg' %}" />#}
+{#    <img src="{% static 'img/cond3.jpg' %}" />#}
+{#    <img src="{% static 'img/cond4.jpg' %}" />#}
+{#    <img src="{% static 'img/cond5.jpg' %}" />#}
+    </div>
+{% endblock %}

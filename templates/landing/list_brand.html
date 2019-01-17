@@ -1,0 +1,16 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="brands-list">
+    {% for elem in brands %}
+        <a class="brands main-link" href="{% url 'brand' elem.id%}">
+            <div class="inner_brands ">
+                <img src="{{ elem.logo.url }}" class="logo-block">
+{#                {{ elem.short_description }}#}
+                <h3 class="short-brands "> {{ elem.short_description }}</h3>
+            </div>
+        </a>
+    {% endfor %}
+    </div>
+{% endblock %}

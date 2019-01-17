@@ -1,0 +1,17 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="zvonok_content ">
+        <div class="zvonok_form">
+            <h3>Введите свои данные для связи с вами</h3>
+            <br>
+            <form action="" method="post" id="form_zvonok_form">{% csrf_token %}
+                {{ form1.as_p }}
+                <button type="submit" class="btn btn-outline my-2 my-sm-0" id="btn-z1">Отправить</button>
+{#                <button type="button" class="btn btn-outline my-2 my-sm-0" id="btn-z0">Отмена</button>#}
+            </form>
+        </div>
+
+    </div>
+{% endblock %}

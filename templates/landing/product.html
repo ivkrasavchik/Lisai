@@ -1,0 +1,13 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="product_content ">
+        <img src="{{ product.image.url }}" class="img-product">
+
+        <p class="prod_description" style="word-break: break-all; color: white; white-space: pre-wrap; padding: 1vw; font-size: 1.3vw">
+            {{ product.description }}
+        </p>
+
+    </div>
+{% endblock %}

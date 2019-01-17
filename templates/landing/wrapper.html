@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block home %}
+    <div class='wrapper-nav'>
+
+{#        <img id="home-img" src="{% static 'img/fon3.jpg' %}" />#}
+
+        <div class="circle_w" id="w-link-1">
+            <a class='w-link' href='{% url 'prod_serv' 1%}' id="w_link1"> КОНДИЦИОНИРОВАНИЕ </a>
+{#            <a class='w-link' href='' id="w_link1"> КОНДИЦИОНИРОВАНИЕ </a>#}
+        </div>
+        <div class="circle_w" id="w-link-2">
+            <a class='w-link' href='{% url 'prod_serv' 2%}' id="w_link2"> ВОДОСНАБЖЕНИЕ </a>
+        </div>
+        <div class="circle_w" id="w-link-3">
+            <a class='w-link' href='{% url 'prod_serv' 3%}' id="w_link3"> ВЕНТИЛЯЦИЯ </a>
+        </div>
+        <div class="circle_w" id="w-link-4">
+            <a class='w-link' href='{% url 'prod_serv' 4%}' id="w_link4"> КАНАЛИЗАЦИЯ </a>
+        </div>
+        <div class="circle_w" id="w-link-5">
+            <a class='w-link' href='{% url 'prod_serv' 5%}' id="w_link5"> ОТОПЛЕНИЕ </a>
+        </div>
+        <div class="circle_w" id="w-link-6">
+            <a class='w-link' href='{% url 'prod_serv' 6%}' id="w_link6"> ЭЛЕКТРИКА </a>
+        </div>
+        <div class="circle_w" id="w-link-7">
+            <a class='w-link' href='{% url 'prod_serv' 7%}' id="w_link7"> БУРЕНИЕ </a>
+        </div>
+        <div class="circle_w" id="w-link-8">
+            <a class='w-link' href='{% url 'prod_serv' 8%}' id="w_link8"> ВОДООТВОД </a>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+
+{% endblock %}

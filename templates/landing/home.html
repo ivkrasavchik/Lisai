@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block home %}
+    <div class='main-home'>
+        <img id="home-img" src="{% static 'img/fon3.jpg' %}" />
+
+        <div class="circle" id="h-link-1">
+            <a class='link' href="{% url 'prod_serv' 1%}" id="link1"> КОНДИЦИОНИРОВАНИЕ </a>
+        </div>
+        <div class="circle" id="h-link-2">
+            <a class='link' href='{% url 'prod_serv' 2%}' id="link2"> ВОДОСНАБЖЕНИЕ </a>
+        </div>
+        <div class="circle" id="h-link-3">
+            <a class='link' href='{% url 'prod_serv' 3%}' id="link3"> ВЕНТИЛЯЦИЯ </a>
+        </div>
+        <div class="circle" id="h-link-4">
+            <a class='link' href='{% url 'prod_serv' 4%}' id="link4"> КАНАЛИЗАЦИЯ </a>
+        </div>
+        <div class="circle" id="h-link-5">
+            <a class='link' href='{% url 'prod_serv' 5%}' id="link5"> ОТОПЛЕНИЕ </a>
+        </div>
+        <div class="circle" id="h-link-6">
+            <a class='link' href='{% url 'prod_serv' 6%}' id="link6"> ЭЛЕКТРИКА </a>
+        </div>
+        <div class="circle" id="h-link-7">
+            <a class='link' href='{% url 'prod_serv' 7%}' id="link7"> БУРЕНИЕ </a>
+        </div>
+        <div class="circle" id="h-link-8">
+            <a class='link' href='{% url 'prod_serv' 8%}' id="link8"> ВОДООТВОД </a>
+        </div>
+        <div class="circle" id="h-link-9">
+{#            <a class='link' href='' id="link9"> БРЭНДЫ </a>#}
+            <a class='link' href='{% url 'brands'%}' id="link9"> БРЭНДЫ </a>
+        </div>
+        <div class="circle" id="h-link-10">
+            <a class='link' href='' id="link10"> МАРИО </a>
+        </div>
+        </div>
+{#    </div>#}
+
+{% endblock %}

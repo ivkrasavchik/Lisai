@@ -1,0 +1,521 @@
+body{
+    margin: 0;
+}
+/*-------NAVBAR---------------*/
+#navbar-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #7d3501;
+    z-index: 10;
+}
+#link-home{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 42px;
+    color: darkorange;
+}
+#link-home:hover{
+    color: chocolate;
+}
+#addres{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    font-size: 1.3vw;
+}
+#phone{
+    position: relative;
+    top: -20px;
+    left: 50px;
+    font-size: 1.5vw;
+    color: darkorange;
+}
+.my-button{
+    font-size: 20px;
+    background-color: #7d3501;
+    color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 22%;
+}
+.my-button:active{
+    background-color: darkorange;
+    color: #7d3501;
+    border: solid #7d3501;
+}
+.my-button:hover{
+    border: 3px solid;
+}
+#recall{
+    position: relative;
+    top: -135px;
+    left: 695px;
+}
+.romb{
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    color: darkorange;
+    background-color: #7d3501;
+    position: relative;
+    width: 210px;
+    height: 80px;
+    border-left: 2px solid darkorange;
+    border-right: 2px solid darkorange;
+    border-top: 0; border-bottom: 0;
+    transform: skewX(-45deg);
+}
+.recal2{
+    position: relative;
+    top: 0px;
+    left: 52px;
+    width: 147px;
+    transform: skewX(45deg);
+}
+.romb:hover{
+    color: darkorange;
+    text-decoration: none;
+    font-size: 26px;
+    border-left: 4px solid darkorange;
+    border-right: 4px solid darkorange;
+}
+.romb:active{
+    color: #7d3501;
+    background-color: darkorange;
+}
+#romb1{
+    /*display: block;*/
+    top: 0px;
+    left: 150px;
+}
+#romb2{
+    top: 0px;
+    left: 160px;
+}
+#romb3{
+    width: 238px;
+    top: 0px;
+    left: 170px;
+}
+.nav_pos_link{
+    display: flex;
+}
+/*------------- END NAVBAR--------------------------------------*/
+/*----------- Home -------------------------*/
+.main-home{
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    color: darkorange;
+}
+.home-cont{
+    position: relative;
+    top: 80px;
+}
+.link{
+    color: darkorange;
+    font-size: 30px;
+}
+.link:hover{
+    text-decoration: none;
+    color: #7d3501;
+}
+.main-link{
+    text-decoration: none;
+    color: darkorange;
+}
+.main-link:hover{
+    text-decoration: none;
+    color: #7d3501;
+}
+.circle{
+    width: 300px;
+    height: 100px;
+    border: 3px solid #7d3501;
+    border-radius: 50%;
+    background: #333333;
+}
+.circle:hover{
+    border: 3px solid darkorange;
+}
+#home-img{
+    position: absolute;
+    top: 30%;
+}
+#h-link-1{
+    position: relative;
+    top: 30%;
+    left: 70%;
+    width: 400px;
+}
+#link1{
+    position: relative;
+    left: 6%;
+    top: 30%;
+}
+#h-link-2{
+    position: relative;
+    top: 31%;
+    left: 79%;
+}
+#link2{
+    position: relative;
+    left: 6%;
+    top: 30%;
+}
+#h-link-3{
+    position: relative;
+    top: 33%;
+    left: 82%;
+    width: 270px;
+}
+#link3{
+    position: relative;
+    left: 13%;
+    top: 30%;
+}
+#h-link-4{
+    position: relative;
+    top: 34%;
+    left: 75%;
+}
+#link4{
+    position: relative;
+    left: 12%;
+    top: 30%;
+}
+#h-link-5{
+    position: relative;
+    top: 32%;
+    left: 61%;
+}
+#link5{
+    position: relative;
+    left: 17%;
+    top: 30%;
+}
+#h-link-6{
+    position: relative;
+    top: 25%;
+    left: 41%;
+}
+#link6{
+    position: relative;
+    left: 18%;
+    top: 30%;
+}
+#h-link-7{
+    position: relative;
+    top: 16%;
+    left: 21%;
+}
+#link7{
+    position: relative;
+    left: 26%;
+    top: 30%;
+}
+#h-link-8{
+    position: relative;
+    top: 6%;
+    left: 1%;
+}
+#link8{
+    position: relative;
+    left: 18%;
+    top: 30%;
+}
+#h-link-9{
+    position: relative;
+    top: -64%;
+    left: 60%;
+}
+#link9{
+    position: relative;
+    left: 27%;
+    top: 30%;
+}
+#h-link-10{
+    width: 220px;
+    height: 80px;
+    position: relative;
+    top: -80%;
+    left: 49%;
+}
+#link10{
+    position: relative;
+    left: 23%;
+    top: 26%;
+}
+/*--- end home--------*/
+/*-----wrapper--------*/
+.wrapper-nav{
+    position: fixed;
+    padding: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    color: darkorange;
+    z-index: 9;
+}
+.w-link{
+    color: darkorange;
+    font-size: 20px;
+}
+.w-link:hover{
+    color: red;
+}
+.circle_w{
+    width: 280px;
+    height: 70px;
+    border: 2px solid #7d3501;
+    border-radius: 50%;
+    background: #333333;
+    position: relative;
+    left: 10px;
+    top: 90px;
+}
+#w_link1{
+    position: relative;
+    left: 21px;
+    top: 30%;
+}
+#w_link2{
+    position: relative;
+    left: 49px;
+    top: 30%;
+}
+#w_link3{
+    position: relative;
+    left: 70px;
+    top: 30%;
+}
+#w_link4{
+    position: relative;
+    left: 62px;
+    top: 30%;
+}
+#w_link5{
+    position: relative;
+    left: 75px;
+    top: 30%;
+}
+#w_link6{
+    position: relative;
+    left: 78px;
+    top: 30%;
+}
+#w_link7{
+    position: relative;
+    left: 92px;
+    top: 30%;
+}
+#w_link8{
+    position: relative;
+    left: 76px;
+    top: 30%;
+}
+/*------------ end wrapper -----------------*/
+/*---- company-----*/
+.comp-content{
+    position: absolute;
+    top: 56px;
+    left: 300px;
+    background-color: black;
+    color: darkorange;
+    padding: 10px;
+    /*width: 1860px;*/
+}
+.main-content{
+    position: fixed;
+    top: 56px;
+    left: 270px;
+    background-color: black;
+    color: darkorange;
+    padding: 10px;
+    /*width: 1860px;*/
+}
+.prod{
+    color: #7d3501;
+    font-size: 100px;
+    display: block;
+    position: absolute;
+    width: 1146px;
+    height: 934px;
+    background-color: black;
+    top: 20px;
+    left: -451px;
+    transform: skewX(-45deg);
+}
+.prod:hover{
+    color: darkorange;
+    font-size: 120px;
+}
+.prod:active{
+    background-color: #7d3501;
+    color: black;
+}
+.cont-unrotate{
+    /*color: darkorange;*/
+    /*font-size: 100px;*/
+    width: 500px;
+    position: relative;
+    left: 316px;
+    top: 200px;
+    transform: skewX(45deg);
+}
+.serv{
+    color: black;
+    font-size: 100px;
+    display: block;
+    position: absolute;
+    width: 1370px;
+    height: 934px;
+    background-color: #7d3501;
+    top: 20px;
+    left: 694px;
+    transform: skewX(-45deg);
+}
+.serv:hover{
+    color: darkorange;
+    font-size: 120px;
+}
+.serv:active{
+    background-color: black;
+    color: #7d3501;
+}
+.cont-unrotate-serv{
+    /*color: darkorange;*/
+    /*font-size: 100px;*/
+    width: 500px;
+    position: relative;
+    left: 299px;
+    top: 543px;
+    transform: skewX(45deg);
+}
+/*-------------------------*/
+/*----------- cond serv ------------*/
+.serv-content{
+    position: absolute;
+    top: 56px;
+    left: 290px;
+    background-color: black;
+    color: darkorange;
+    padding: 10px;
+}
+/*--------------------------*/
+/*------------ cond production-------------*/
+.prod-content{
+    position: absolute;
+    top: 78px;
+    left: 300px;
+    /*background-color: black;*/
+    color: darkorange;
+    padding: 10px;
+}
+.brands-list{
+    position: absolute;
+    top: 80px;
+    left: 290px;
+    background-color: black;
+    color: darkorange;
+    padding: 10px;
+    width: 82%;
+}
+.brands{
+    display: block;
+    border: 2px solid #7d3501;
+    /*height: 300px;*/
+}
+.inner_brands{
+    display: block;
+    /*height: 100px;*/
+    width: 60vw;
+    }
+.logo-block{
+    display: block;
+    margin: 10px;
+    width: 20vw;
+}
+.short-brands{
+    font-size: 1.4rem;
+    /*display: block;*/
+    /*position: relative;*/
+    /*height: 100px;*/
+    /*width: 100vw;*/
+    /*top: -150px;*/
+    left: 23vw;
+}
+#filter-brand{
+    position: fixed;
+    top: 750px;
+    left: 0px;
+    text-align: center;
+    /*height: 150px;*/
+    width: 300px;
+    font-size: 30px;
+    z-index: 9;
+}
+.menu_img{
+    max-width: 250px;
+    max-height: 250px;
+    margin-right: 20px;
+}
+.list_product{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border: 4px solid darkorange;
+    min-width: 690px;
+    /*height: 350px;*/
+}
+.short_discr_filter{
+    color: white;
+}
+.product_content{
+    display: flex;
+    /*position: relative;*/
+    top: 10px;
+    /*left: 295px;*/
+    background-color: black;
+    padding: 10px;
+    /*margin: 5px;*/
+    /*border: 4px solid darkorange;*/
+    /*min-width: 690px;*/
+    /*height: 350px;*/
+}
+.img-product{
+    position: relative;
+    left: 300px;
+    top: 70px;
+    max-width: 500px;
+    max-height: 500px;
+}
+.prod_description{
+    position: relative;
+    left: 300px;
+    top: 10px;
+    width: 55%;
+    min-height: 100vh;
+}
+.zvonok_content{
+    background-color: black;
+    color: darkorange;
+    min-height: 100vh;
+}
+.zvonok_form{
+    position: absolute;
+    top: 165px;
+    left: 660px;
+    max-width: 600px;
+    /*max-height: 500px;*/
+    border: 4px solid darkorange;
+    padding: 15px;
+}

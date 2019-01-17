@@ -1,0 +1,14 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="brands-list ">
+        <a href="{% url 'production_brand' brand.id %}" class="main-link" id="filter-brand">Показать продукцию марки {{ brand.name }}</a>
+        <img src="{{ brand.logo.url }}" class="logo-block">
+
+        <p style="word-break: break-all; color: white; white-space: pre-wrap; padding: 1vw; font-size: 1.3vw">
+            {{ brand.description }}
+        </p>
+
+    </div>
+{% endblock %}

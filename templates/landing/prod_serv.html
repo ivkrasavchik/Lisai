@@ -1,0 +1,18 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+     <div class="main-content">
+     <a class="prod" href="{% url 'production' cat_id %}">
+         <div class="cont-unrotate">
+             ПРОДУКЦИЯ
+         </div>
+     </a>
+     <a class="serv" href="{% url 'condserv' cat_id%}">
+         <div class="cont-unrotate-serv">
+             СЕРВИС
+         </div>
+     </a>
+     </div>
+
+{% endblock %}

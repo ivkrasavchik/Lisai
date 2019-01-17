@@ -1,0 +1,15 @@
+{% extends 'landing/wrapper.html' %}
+{% load static %}
+
+{% block content %}
+    {% for elem in aboutCompany %}
+
+
+    <div class="comp-content">
+
+            <p style="word-break: break-all; color: white; white-space: pre-wrap; padding: 1vw; font-size: 1.3vw">   О КОМПАНИИ
+            {{ elem.description }} </p>
+
+    </div>
+    {% endfor %}
+{% endblock %}
