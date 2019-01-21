@@ -1,0 +1,10 @@
+{#{% extends 'two_page_website/wrapper.html' %}#}
+{% extends 'two_page_website/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="custom-section">
+    <div class="block -left"><img class="background1" src="{% static 'img/summer.jpeg' %}"/><a class="link" href="{% url 'vent' %}">Вентиляция</a></div>
+    <div class="block -right"><img class="background1" src="{% static 'img/winter.jpeg' %}"/><a class="link" href="{% url 'cond' %}">Кондиционирование</a></div>
+</div>
+{% endblock %}

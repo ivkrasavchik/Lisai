@@ -1,0 +1,20 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>LisSolution</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}" >
+    <link rel="stylesheet" href="{% static 'css/t_style.css' %}">
+</head>
+<body>
+    {% include 'two_page_website/navbar.html' %}
+    <div class="background">
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+</body>
+</html>

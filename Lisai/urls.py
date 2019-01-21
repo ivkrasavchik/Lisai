@@ -20,8 +20,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('landing.urls')),
-    # path('products', include('products.urls')),
+    # path('', include('landing.urls')),
+    path('', include('two_page_website.urls')),
 ]\
     + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) \
     + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

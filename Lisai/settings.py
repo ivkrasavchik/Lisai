@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'landing',
-    # 'products'
+    'two_page_website'
 ]
 
 MIDDLEWARE = [
