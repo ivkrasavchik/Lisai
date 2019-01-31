@@ -1,6 +1,23 @@
 body{
     margin: 0;
 }
+/*//////////// Creater ////////////////////////////*/
+.creater{
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 97vh;
+    /*left: 65vw;*/
+    color: darkorange;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: right;
+    padding-right: 50px;
+}
+.creater:hover{
+    text-decoration: none;
+    color: chocolate;
+}
 /*/////////////// NAVBAR ////////////////////////*/
 #navbar-nav{
     position: fixed;
@@ -73,17 +90,17 @@ body{
 }
 .recal2{
     position: relative;
-    top: 0px;
+    top: 12px;
     left: 52px;
     width: 147px;
     transform: skewX(45deg);
 }
 .romb:hover{
-    color: darkorange;
+    color: chocolate;
     text-decoration: none;
-    font-size: 2.6rem;
-    border-left: 4px solid darkorange;
-    border-right: 4px solid darkorange;
+    /*font-size: 2.6rem;*/
+    border-left: 4px solid chocolate;
+    border-right: 4px solid chocolate;
 }
 .romb:active{
     color: #7d3501;
@@ -91,12 +108,12 @@ body{
 }
 #romb1{
     /*display: block;*/
-    width: 350px;
+    width: 282px;
     top: 0px;
     left: 150px;
 }
 #romb2{
-    width: 500px;
+    width: 430px;
     left: 200px;
 }
 #romb3{
