@@ -83,7 +83,7 @@ DATABASES = {
         # 'NAME': os.path.join(BASE_DIR, 'db_lisai'),
         'NAME': 'db_lisai',
         'USER': 'ruslan',
-        'PASSWORD': '12345678',
+        'PASSWORD': '**********',
         'HOST': 'localhost',
         'PORT': '5432',
     }
