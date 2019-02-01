@@ -5,3 +5,4 @@ __pycache__/
 */__pycahe__/
 *.py[cod]
 .pyc
+settings.py

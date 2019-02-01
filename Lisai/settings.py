@@ -81,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         # 'NAME': os.path.join(BASE_DIR, 'db_lisai'),
-        'NAME': 'db_lisai',
-        'USER': 'ruslan',
-        'PASSWORD': '**********',
+        'NAME': 'db',
+        'USER': 'sdmin',
+        'PASSWORD': '********',
         'HOST': 'localhost',
         'PORT': '5432',
     }
